@@ -1,0 +1,301 @@
+*{
+    margin: 0 auto;
+    padding: 0  ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #1e1e1e;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header__logo{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 96px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 36px;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;   
+}
+.header__item{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 96px;
+    color: #fff;
+    padding-left: 60px;
+    text-transform: uppercase;
+}
+.header__order{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 55px;
+    padding: 20px 26px;
+    background: #B3A0CD;
+}
+.start__tbox{
+    position: relative;
+}
+.start__title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 107px;
+    line-height: 88px;
+    color: #fff;
+    width: 1255px;
+    height: 285px;
+    text-align: center;
+    margin-top: 74px;
+}
+.img{
+    position: absolute;
+    width: 559px;
+    height: 478px;
+    left: 1000px;
+    top: 440px; 
+}
+.start__image :nth-child(2){
+    position: absolute;
+    width: 414px;
+    height: 356px;
+    left: 804px;
+    top: 518px;
+    z-index: -1;
+}
+.start__image :nth-child(3){
+    position: absolute;
+    width: 414px;
+    height: 356px;
+    right: 416px;
+    top: 518px;
+    z-index: -1;
+}
+.info__block{
+    position: relative;
+}
+.info__box{
+    position: absolute;
+    background: #D1EF53;
+    width: 1340px;
+    height: 369px;
+    border: 4px solid #1E1E1E;
+    border-radius: 30px;
+    left: 630px;
+    top: 450px;
+    display: flex;
+    align-items: center;
+
+}
+.title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 50px;
+}
+.info__title{
+    width: 533px;
+    height: 186px;
+    margin-left: 109px;
+}
+.text{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+}
+.info__text{
+    width: 521px;
+    height: 75px;
+    margin-right: 149px;
+    margin-bottom: 34px;   
+}
+.info__btn{
+    font-family: "BowlbyOne"; 
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 35px;
+    border: 8px solid #1E1E1E;
+     box-shadow: 8px 8px 0px #000000;
+    text-transform: uppercase;
+}
+.menu__block{
+    display: flex;
+    justify-content: center;
+    margin-left: -325px;
+    width: 1340px;
+    height: 753px;
+}
+.menu__box{
+    position: relative;
+}
+.menu__content {
+    position: absolute;
+    top: 1435px;
+    left: 649px;
+    background: #1E1E1E;
+    border-radius: 30px;
+    width: 386px;
+    height: 185px;
+
+    display: flex;
+    flex-direction: column;
+}
+.menu__img{
+    position: absolute;
+    width: 650px;
+    height: 753px;
+    left: 630px;
+    top: 818px;
+    border: 4px solid #E9E3DC;
+    border-radius: 30px;
+    margin-top: 64px;
+}
+.menu__title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    color: #fff;
+    padding: 43px 47px 18px 47px;
+}
+.menu__text{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 20px;
+    color: #B3A0CD;
+    text-align: start;
+    margin-left: 44px;
+}
+.comment__block{
+    position: relative;
+    left: 630px;
+    top: 880px;
+}
+.comment__title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 107px;
+    line-height: 88px;
+    position: absolute;
+    color: #D1EF53;
+    width: 1265px;
+    height: 190px;
+    text-align: center;
+    margin-top: 48px;
+}
+.comment__image{
+    width: 1340px;
+    height: 574px;
+    border: 4px solid #D9D9D9;
+    border-radius: 30px;
+    margin-top: 285px;
+}
+.footer__nav, .footer__block{
+    position: relative;
+    top: 880px;
+}
+.footer__title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 101px;
+    width: 895px;
+    height: 142px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 120px;
+}
+.footer__block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__btn{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 73px;
+    padding: 21px 31px;
+    text-transform: uppercase;
+    background: #D1EF53;
+}
+.footer__nav{
+    display: flex;
+    width: 1340px;
+    height: 320px;  
+    background: #B3A0CD;
+    border-radius: 30px;
+    margin-top: 135px;
+    padding-top: 76px;
+}
+.footer__logo{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 30px;
+    width: 137px;
+    height: 58px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000;
+    
+}
+.footer__nav-title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer__nav-item{
+    font-family: "inter";
+    font-weight: 800;
+    font-size: 16px;
+    color: #000;
+    line-height: 35px;
+}
+.footer__nav-time-title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer__nav-tme-text{
+    font-family: "inter";
+    font-weight: 800;
+    font-size: 16px;
+    width: 92px;
+    height: 90px;
+    line-height: 32px;
+}
+.footer__nav-search-title{
+    font-family: "BowlbyOne";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer__nav-time-srch{
+    font-family: "BowlbyOne";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    width: 402px;
+    height: 60px;
+    color: #1E1E1E;
+    background: transparent;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid #1E1E1E;
+    margin-top: 26px;
+}
